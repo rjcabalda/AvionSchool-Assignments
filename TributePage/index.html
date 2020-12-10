@@ -101,7 +101,19 @@
             display: flex;
             flex-direction: column;
         }
-    }      
+    }
+    @media only screen and (max-width: 992px) {
+        .mainContent {
+            display: flex;
+            flex-direction: column;
+        }
+        .tributePage {
+            font-size: 1.3em;
+        }
+        .navItem {
+            font-size: 1.1em;
+        }
+    }     
 
     </style>
 </head>
@@ -109,7 +121,7 @@
     <div class="header">
         <div class="title">
             <div>
-                <h1>Tribute Page</h1>
+                <h1 class="tributePage">Tribute Page</h1>
             </div>
         </div>
         <div class="navBar">
